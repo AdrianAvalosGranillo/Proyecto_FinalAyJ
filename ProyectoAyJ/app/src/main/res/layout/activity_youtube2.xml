@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youtube2">
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUTUBE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView159"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso 1: Inicia sesión en tu cuenta"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        app:srcCompat="@drawable/yt1" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa a la página inicial de YouTube o a YouTube Studio y haz clic en el botón de Iniciar Sesión en la parte superior derecha. Si tienes múltiples cuentas en tu dispositivo, escoge la que quieras utilizar; ingresa tu contraseña y luego, estarás de vuelta en el sitio principal."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso 2"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haz clic en el icono de video en la parte superior derecha de la ventana, junto a los iconos de notificaciones y usuario."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        app:srcCompat="@drawable/yt2" />
+
+    <Button
+        android:id="@+id/btnstn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="SIGUIENTE" />
+</LinearLayout>

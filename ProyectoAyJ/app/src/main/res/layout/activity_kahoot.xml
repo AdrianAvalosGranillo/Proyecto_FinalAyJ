@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Kahoot">
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="KAHOOT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kahoot una herramienta para gamificar el aula y hacer que los alumnos aprendan divirtiéndose.Kahoot es una herramienta gratuita para gamificar el aula y hacer que los alumnos aprendan divirtiéndose."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manual de Uso"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView135"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El primer paso es, lógicamente, registrarse en Kahoot!. Para ello puedes ir a la página principal y pulsar en «Sign up for free!» o entrar en este enlace. Sigue los pasos e indicaciones, confirma la cuenta a través del correo electrónico que te enviarán, y listo."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ka1" />
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una vez tengas tu cuenta activa puedes autentificarte en la plataforma para acceder a una web como la de aquí arriba para buscar contenido creado por otros usuarios e iniciarlo. Pero también puedes crear un Kahoot! desde ceroUna vez tengas tu cuenta activa puedes autentificarte en la plataforma para acceder a una web como la de aquí arriba para buscar contenido creado por otros usuarios e iniciarlo. Pero también puedes crear un Kahoot! desde cero"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsiguii1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+
+    </LinearLayout>
+</LinearLayout>

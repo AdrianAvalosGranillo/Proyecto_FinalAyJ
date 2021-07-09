@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MOODLE">
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="MOODLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuración del curso"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:text="Un curso es un espacio dentro de un sitio Moodle en donde los profesores pueden añadir materiales de aprendizaje para sus estudiantes. Un profesor puede tener más de un curso y un curso puede incluir a más de un profesor y más de un grupo de estudiantes.Un curso es un espacio dentro de un sitio Moodle en donde los profesores pueden añadir materiales de aprendizaje para sus estudiantes. Un profesor puede tener más de un curso y un curso puede incluir a más de un profesor y más de un grupo de estudiantes."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            app:srcCompat="@drawable/moodle1" />
+
+        <Button
+            android:id="@+id/btnsig6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+
+    </LinearLayout>
+</LinearLayout>

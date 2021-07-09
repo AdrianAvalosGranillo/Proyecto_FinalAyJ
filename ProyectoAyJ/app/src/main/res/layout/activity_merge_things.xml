@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MergeThings">
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="MERGE THINGS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es un pequeño cubo de goma con una serie de códigos en sus caras a través de los cuales podemos convertir esta herramienta en un holograma; una imagen virtual sobre un dispositivo real.  En el entorno de cambio de paradigma formativo los modelos de Docencia‐ Aprendizaje 2.0 deben contemplar varios principios fundamentales: aprender a aprender, de forma que el alumno sea el que se convierta en el centro de la formación y en protagonista activo del proceso de enseñanza‐aprendizaje; el aprendizaje colaborativo, que permite fomentar la participación activa entre alumnos a través de distintas actividades, entre las que están la creación y participación en comunidades de aprendizaje; en tercer lugar es necesario que los programas formativos sean compatibles y estén conectados con la realidad profesional, de forma que el aprendizaje pueda ser puesto en práctica de forma rápida y tangible."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manual de uso:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/merge1" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para poder usar esta herramienta virtual primero hay que crear una cuenta, que es totalmente gratuita"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsiguii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+
+    </LinearLayout>
+</LinearLayout>

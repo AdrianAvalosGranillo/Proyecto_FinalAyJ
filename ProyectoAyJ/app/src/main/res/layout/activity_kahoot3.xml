@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kahoot3">
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="KAHOOT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ya tendremos el Kahoot! creado, pero sin preguntas. Esta siguiente ventana nos pedirá que añadamos las preguntas, con una interfaz igualmente muy intuitiva y sencillísima de utilizar. Pulsamos sobre «Add question» y la plataforma nos pedirá algunos datos sobre la pregunta, tal y como se muestra en la siguiente imagen:  "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            app:srcCompat="@drawable/ka4" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="regunta: la pregunta que deseas lanzar a tus alumnos  Límite de tiempo, por defecto 20 segundos (de esto dependerá, en parte, la dificultad)  Posibles respuestas, al menos dos y hasta cuatro. Debes hacer clic en el ‘tick’ para marcar cuáles son las correctas.  Recursos para dar crédito, en el caso en el que quieras ampliar la información de la pregunta.  Media: añadir una imagen o un vídeo. Esto es muy interesante para contextualizar la pregunta, y también puede utilizarse para plantear preguntas alrededor de la imagen o vídeo que se haya insertado.  Para continuar, pulsa en siguiente («Next«) y la pregunta se añadirá a tu Kahoot!"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="INICIO" />
+    </LinearLayout>
+</LinearLayout>

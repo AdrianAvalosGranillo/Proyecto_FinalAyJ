@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/txtVwIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="INTRODUCCIÓN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="En el año 2020, fue el inicio de una serie de eventos de tala mundial; en dónde absolutamente nadie, pudo salir ileso. El suceso más remarcable, es la pandemia generada por el virus SARS-CoV-2, comúnmente conocido como coronavirus. Cómo se mencionó previamente, muy pocas personas y elementos de la sociedad fueron afectadas. Desde empresas emergentes que tuvieron que cesar su crecimiento, personas de distintos niveles profesionales perdieron sus empleos, crisis sociales, etc."
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtVwPlantea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HIPOTESIS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La implementación de una aplicación guía de apoyo, que instruya correctamente al profesor en el óptimo uso de las plataformas virtuales de educación, mejora el nivel de aprovechamiento académico de los alumnos."
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</LinearLayout>

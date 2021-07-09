@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Quizziz">
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZZIZ"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quizizz es una web que nos permite crear cuestionarios online que nuestros alumnos pueden responder de tres maneras distintas: En un juego en directo (tipo Kahoot) Como tarea (los resultados le llegan al maestro) De manera individual (“solo game”)."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manual de uso"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para registrarnos accedemos a la página web quizizz.com y pulsamos sobre “Sign up”, el botón verde que aparece en la parte superior de la pantalla:   Nos solicitará la forma de registro: mediante una cuenta de Gmail o con una cuenta de correo y una contraseña:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/qu2" />
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si nos fijamos en el menú lateral de la izquierda, nos ha situado sobre la opción “Encuentra una prueba”, de forma que en el buscador central podemos indicar sobre qué tema queremos buscar algún cuestionario. Si buscamos “Trigonometría” nos aparecen todos estos cuestionarios (en la parte central) y las preguntas que conforman cada cuestionario en la parte derecha de la pantalla.  "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="SIGUIENTE" />
+</LinearLayout>

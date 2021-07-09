@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Youtube">
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUTUBE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manual de uso Lo primero es lo primero. Antes de subir tu contenido, debes asegurarte de que Youtube realmente admite el archivo de video que estás usando. Afortunadamente, como no podía ser menos, la plataforma de video más popular del mundo admite la mayoría de los formatos de archivos de video. Para tu comodidad, aquí tienes la lista completa de archivos compatibles:  .MOV  .MPEG4  .MP4  .AVI  .WMV  .MPEGPS  .FLV  3GPP  WebM  DNxHR  ProRes  CineForm  HEVC (h265)  Como puede ver, las posibilidades de que su archivo de video no sea compatible son mínimas. Sin embargo, si su tipo de archivo de video no aparece en esta lista, deberá volver a exportarlo utilizando un formato compatible. Puede consultar el Centro de Asistencia de YouTube para saber cómo convertirlo.  Su video no necesita música antes de subirlo: si no pudo decidir qué música quería para su video antes de subirlo, no todo está perdido. Gracias a la amplia (y gratuita) oferta de la biblioteca de audio de YouTube, puede agregar música y efectos de sonido a su contenido después de haberlo subido. Esto le da mayor flexibilidad creativa, ya que puede cambiar la pista de audio siempre que quiera."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="SIGUIENTE" />
+</LinearLayout>

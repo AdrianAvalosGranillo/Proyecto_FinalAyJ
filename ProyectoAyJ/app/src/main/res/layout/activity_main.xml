@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btninicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="INICIO"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtVwHerramientas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="@color/white"
+        android:text="HERRAMIENTAS PARA DOCENTES"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="COMUNICACIÓN"
+        android:textSize="20sp"
+        android:onClick="onClick1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="E-LEARNING"
+        android:textSize="20sp"
+        android:onClick="onClick2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="PRESENTACIONES ACTIVAS"
+        android:textSize="20sp"
+        android:onClick="onClick3"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnInicio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="APP.REALIDAD AUMENTADA"
+        android:textSize="20sp"
+        android:onClick="onClick4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnrealidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="ANIMACION Y CREACION DE VIDEO"
+        android:textSize="20sp"
+        android:onClick="onClick5"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btngamifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="GAMIFICACIÓN"
+        android:textSize="20sp"
+        android:onClick="onClick6"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnreposi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="REPOSITORIO AUDIOVISUAL"
+        android:textSize="20sp"
+        android:onClick="onClick7"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="CURACIÓN DE CONTENIDO"
+        android:textSize="20sp"
+        android:onClick="onClick8"
+        android:textStyle="bold" />
+
+</LinearLayout>

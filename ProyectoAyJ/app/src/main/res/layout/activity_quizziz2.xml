@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Quizziz2">
+
+    <TextView
+        android:id="@+id/textView148"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="QUIZZIZ"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vamos a crear nuestro propio cuestionario, para ello vamos a la opción de “Mis pruebas” en el menú lateral:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y en el botón central, le damos a “Crear”. Nos pedirá el nombre del cuestionario y el idioma (esto será interesante a la hora de buscar cuestionarios, porque podemos filtrarlos por el idioma). Podemos añadir también una imagen para el cuestionario. De todas formas, como nos avisa la ventana en pop-up que nos aparece, podemos modificar esta información cuando lo necesitemos."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Una vez creado el cuestionario debemos añadir las preguntas, y esto lo podremos hacer de tres formas diferentes:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primera forma: añadiendo las preguntas de forma manual.  "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView153"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segunda forma: añadiendo las preguntas como en una hoja de cálculo."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView154"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tercera forma: añadiendo preguntas de otros cuestionarios. En la parte superior de la pantalla tenemos la opción “Buscar de preguntas existentes” que nos va a permitir añadir preguntas sueltas de cuestionarios de otros usuarios que encontremos en la plataforma.  Por ejemplo, puede buscar preguntas relacionadas con el tema de su cuestionario:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="INICIO" />
+</LinearLayout>

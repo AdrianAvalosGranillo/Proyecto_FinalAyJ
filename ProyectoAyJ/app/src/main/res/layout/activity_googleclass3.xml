@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GOOGLECLASS3">
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="GOOGLE CLASSROOM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colocar contenidos"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una vez con la estructura de temas, podremos colocar contenidos de cada unidad. Por lo general muchos profesores ya tienen materiales que les comparten a los alumnos, desde bibliografía básica y complementaria, sitios web, videos, archivos propios, etcétera.  Agregaremos un contenido de cada tipo para ejemplificarlos. Haga clic en Crear y seleccione Material. Esto lanzará una página nueva en donde se solicita el título y descripción del material, y luego tiene la opción de Agregar, que permite agregar un documento guardado en Google Drive, un vínculo de una página web, un archivo (guardado por lo general en nuestra computadora) o bien un video de YouTube.  Google Drive. Para esta opción necesitamos ya tener guardado el archivo a compartir en Google Drive. Seleccione esta opción, aparecerá una pantalla donde estará su carpeta de Drive, seleccione el archivo a compartir y haga clic en Agregar. Después de esto el archivo aparecerá en la parte de abajo de Agregar. Se sugiere que en la parte derecha deje igual Para, que indica en qué curso se publicará y que se colocará para Todos los alumnos.  En Tema elija el tema al que pertenece ese archivo. En este ejemplo se elige para el tema 1.  Finalmente en el botón superior de Publicar se presenta un menú desplegable con la opción de Publicar, que hace la publicación en ese momento del contenido, Programar permite programar que el contenido se publique en una fecha específica, Guardar borrador salvará el contenido pero no lo publicará en ese momento y Descarta el borrador eliminará en ese momento ese contenido. Para este ejemplo elegimos Publicar."
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="421dp"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/class5" />
+
+        <Button
+            android:id="@+id/btnsig11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick19"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</LinearLayout>

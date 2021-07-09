@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Teams3">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="TEAMS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Características de la conversación:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="TextViewSi se necesita que alguien del equipo se entere de un comentario, puede nombrarlo dentro del mensaje con @nombre, por ejemplo @maria esto le permitirá seleccionar a todas personas que contengan el patrón maria (da igual acentos y mayúsculas) dentro de su nombre o apellidos que haya en el grupo. La persona seleccionada tendrá una notificación de Teams, incluso un correo electrónico.  Si escribe algo y quiere continuar el mensaje con otro párrafo, es decir, poner un punto y aparte. En vez de ENTER debe pulsar tecla ↑ Mayúsculas y ENTER a la vez. Si pulso ENTER se mandará el mensaje.   En la parte superior de la pantalla vemos las opciones:   Publicaciones: Por defecto, es la que se abre al seleccionar un canal. Ahí se indica todo lo que se ha hecho en el canal, conversaciones, llamadas, reuniones, etc.  Archivos: Si quiero agregar un documento Word, Excel, PowerPoint, Pdf, etc. lo puedo hacer desde esa pestaña."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crea una tarea"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una opción interesante, aunque algo escondida, es crear una tarea. Es necesario que la opción Tareas se nos muestre en el menú superior de la pantalla de trabajo. Para ello hay que hacer lo siguiente:"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            app:srcCompat="@drawable/teams6" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</LinearLayout>

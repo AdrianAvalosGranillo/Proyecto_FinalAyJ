@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Prezy">
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="PREZY"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREZI es una aplicación multimedia para la creación de presentaciones similar a Microsoft Office PowerPoint, pero que, a diferencia de éste, es mucho más dinámica ya que abandona las presentaciones estrictamente lineales, y está basada en el Visual Thinking, el cual proporciona mejores efectos visuales que otras herramientas."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Creación de una cuenta"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresaremos en www.prezi.com para crear una cuenta. Puede ser gratuita o de pago. En nuestro caso podemos optar por las cuentas de Educación. Para ello ingresamos nombre, correo y contraseña. La versión gratuita funciona solo desde Internet y con límite de almacenamiento."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            app:srcCompat="@drawable/prezi1" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear una presentación"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El usuario podrá crear una nueva presentación cuando haya ingresado en la cuenta a través del correo electrónico y la contraseña. Para ello clicamos en el botón Nuevo Prezi. Lo primero que aparecerá será una serie de plantillas que podremos escoger para nuestra nueva presentación. Si no optamos por una plantilla y decidimos crear una presentación en blanco debemos elegir Nuevo prezi, después clicamos en Iniciar prezi en blanco."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+
+    </LinearLayout>
+</LinearLayout>

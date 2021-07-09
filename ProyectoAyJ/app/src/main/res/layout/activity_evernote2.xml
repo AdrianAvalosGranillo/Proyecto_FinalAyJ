@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Evernote2">
+
+    <TextView
+        android:id="@+id/textView174"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVERNOTE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Libretas y Notas"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La información se guarda en Libretas para así poderla mejor organizada.  Una Libreta puede contener tanto notas de audio, creadas con una cámara web, manuscritas (escritas y/o dibujadas utilizando el ratón) así como por supuesto notas de texto que pueden incluir imágenes y archivos adjuntos.  Podemos crear Libretas e insertar notas desde el menú Archivo o bien haciendo clic con el botón derecho sobre una Libreta."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/e12" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desde dicho menú podremos también cambiarles el nombre, exportar notas, crear una pila que contenga varias Libretas, etc.  Asimismo, desde Agregar a la pila podremos crear una pila de libretas, que es simplemente la posibilidad de crear un libreta principal que contenga otras. También nos resultará útil el uso de Etiquetas para mantener bien organizada y localizable la información."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btninicio12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="INICIO" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MOODLE2">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="MOODLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un curso puede mostrar sus materiales de varias maneras o 'formatos' ; por ejemplo en secciones semanales o secciones con (el nombre de ) temas o tópicos. Usted también puede mostrar todas las secciones al mismo tiempo o revelarlas solamente una a la vez.  Las secciones de curso pueden re-nombrarse al Activar la edición y hacer click en el ícono de configuración debajo del nombre de la sección. Las secciones también pueden moverse al arrastrar y soltarlas y se pueden añadir o quitar secciones al hacer click sobre los signos de + o - debajo del final de la sección.  Usted también puede añadir elementos conocidos como 'bloques' a la derecha, a la izquierda, o a ambos lados de su área central de aprendizaje (dependiendo de su tema)."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            app:srcCompat="@drawable/moodle2" />
+
+        <Button
+            android:id="@+id/btnsig7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</LinearLayout>

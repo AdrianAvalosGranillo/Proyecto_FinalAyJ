@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectoayj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoAyJ">
+        <activity android:name=".Evernote2"></activity>
+        <activity android:name=".Evernote" />
+        <activity android:name=".Youtube3" />
+        <activity android:name=".Youtube2" />
+        <activity android:name=".Youtube" />
+        <activity android:name=".Quizziz2" />
+        <activity android:name=".Quizziz" />
+        <activity android:name=".Kahoot3" />
+        <activity android:name=".Kahoot2" />
+        <activity android:name=".Kahoor" />
+        <activity android:name=".GARAGEBAND" />
+        <activity android:name=".Audacity2" />
+        <activity android:name=".Audacity" />
+        <activity android:name=".MergeThings3" />
+        <activity android:name=".MergeThings2" />
+        <activity android:name=".MergeThings" />
+        <activity android:name=".MetaVerse2" />
+        <activity android:name=".MetaVerse" />
+        <activity android:name=".GENEALLY4" />
+        <activity android:name=".GENEALLY3" />
+        <activity android:name=".Geneally2" />
+        <activity android:name=".Genealy" />
+        <activity android:name=".PREZY3" />
+        <activity android:name=".PREZY2" />
+        <activity android:name=".Prezy" />
+        <activity android:name=".GOOGLECLASS5" />
+        <activity android:name=".GOOGLECLASS4" />
+        <activity android:name=".GOOGLECLASS3" />
+        <activity android:name=".GOOGLECLASS2" />
+        <activity android:name=".GOOGLECLASS" />
+        <activity android:name=".MOODLE4" />
+        <activity android:name=".MOODLE3" />
+        <activity android:name=".MOODLE2" />
+        <activity android:name=".MOODLE" />
+        <activity android:name=".ZOOM3" />
+        <activity android:name=".ZOOM2" />
+        <activity android:name=".ZOOM" />
+        <activity android:name=".Teams4" />
+        <activity android:name=".Teams3" />
+        <activity android:name=".Teams2" />
+        <activity android:name=".Teams" />
+        <activity android:name=".WhatsApp2" />
+        <activity android:name=".WhatsApp" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".CuraciondeContenido" />
+        <activity android:name=".RepositorioAudioVisual" />
+        <activity android:name=".Gamificacion" />
+        <activity android:name=".AnimacionYCreacionVideo" />
+        <activity android:name=".APPrealidadaumentada" />
+        <activity android:name=".PresentacionesActivas" />
+        <activity android:name=".Elearning" />
+        <activity android:name=".Comunicacion" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

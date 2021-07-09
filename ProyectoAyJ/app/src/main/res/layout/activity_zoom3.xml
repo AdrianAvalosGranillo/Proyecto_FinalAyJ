@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ZOOM3">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="ZOOM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="En esta ventana de configuración, se pueden configurar los siguientes parámetros:   Tema: Introduzca un tema o nombre para la reunión.   Inicio: Seleccione una fecha y hora para la reunión. Puede iniciar la reunión en cualquier momento antes de la hora programada.   Duración: Introduzca la duración aproximada de la reunión. Este ajuste solo está destinado a programación. La reunión no finalizará transcurrido ese periodo de tiempo.   Zona horaria: De manera predeterminada, Zoom utilizará la zona horaria del ordenador. Haga clic en el menú desplegable para seleccionar una zona horaria diferente.   Reunión recurrente: elija si desea configurar una reunión recurrente (el ID de reunión será el mismo en cada reunión).  Haga clic en Agendar para finalizar y abrir el servicio de calendario seleccionado y añadirlo a la reunión."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btninicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick15"
+            android:text="INICIO" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Comunicacion">
+
+    <TextView
+        android:id="@+id/txtVwComu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="COMUNICACIÓN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnwpp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:padding="10sp"
+            android:text="WhatsApp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:onClick="onClick9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnzoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:padding="10sp"
+            android:text="Zoom"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:onClick="onClick12"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:padding="10sp"
+            android:text="Classroom"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:onClick="onClick16"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

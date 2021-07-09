@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GOOGLECLASS5">
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="GOOGLE CLASSROOM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Archivo. En este tipo de carga podemos tener un archivo en nuestro equipo y con esta acción lo vamos a depositar en Drive para que quede disponible para consulta de los alumnos.  Se crea de la misma manera que los dos anteriores, al seleccionar que la fuente es un archivo se cargará una pantalla donde se solicitará que arrastre los archivos de nuestro equipo a Drive, una vez realizado, hacer clic en el botón de Cargar. Realice la publicación.  Es importante que coloques páginas https, ya que las que comienzan con http no te permitirá añadirlas, porque Google las considera ya inseguras. La publicación de este material es igual que en el caso anterior y seré el mismo para todos los casos."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            app:srcCompat="@drawable/class8" />
+
+        <Button
+            android:id="@+id/btninicio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="INICIO" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Teams4">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="TEAMS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haga clic en el botón + en el menú superior.  Se le muestra la siguiente pantalla donde debe seleccionar Planner. Esto solo hay que hacerlo la primera vez que queramos crear una tarea.  Seleccione la opción Crear un Plan y llámelo “Tareas”o como se desee.  Una vez guardado me aparecerá la opción Tareas ( o como lo hayamos llamado en el menú superior)."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La pantalla mostrará el siguiente aspecto al seleccionar Tareas en el menú superior:"
+            android:textColor="#1E1D1D"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/teams7" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para crear una nueva tarea, hay que dar clic en el botón: “Agregar tarea”. Aquí puede editar todos los campos asociados a la tarea. En el cuadro que aparece debe introducir:  El nombre de la tarea, por ejemplo, Revisar documento  Asigne las personas del equipo que tienen esa tarea.  Puede poner una fecha límite para realizarlo."
+            android:textColor="#1E1D1D"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btninicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="INICIO" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MOODLE3">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="MOODLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Existen varios Métodos de inscripción disponibles para un profesor. Una vez más, lo que está disponible depende del administrador de Moodle. El administrador podría inscribir a los alumnos dentro del curso automáticamente, o el profesor podría permitirle a los estudiantes que se inscriban ellos mismos.  Dependiendo del tema usado, esto puede hacerse, ya sea al hacer click en el menú del engrane en el enlace del cajón de navegación 'Participantes', o al hacer clic en Usuarios inscritos desde el enlace para Usuarios en el bloque de Administración del curso. Éste es el método de Inscripción manual.  Puede configurarse una Clave de inscripción si se habilita la Auto inscripción, de forma tal que solamente los estudiantes que tengan la clave puedan entrar."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALIFICAR"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cada curso en Moodle tiene su propio Libro de calificaciones que graba las puntuaciones de tareas , exámenes , talleres con evaluación por pares, lecciones con ramificaciones y recursos educativos LTI.  " />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            app:srcCompat="@drawable/moodle3" />
+
+        <Button
+            android:id="@+id/btnsig8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</LinearLayout>

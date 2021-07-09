@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GARAGEBAND">
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="GARAGEBAND"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es?"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GarageBand es una aplicación informática que permite al usuario crear piezas de música y podcast. Es desarrollado por Apple Computer para sus sistemas operativos iOS y macOS."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manual de Uso" />
+
+        <TextView
+            android:id="@+id/textView130"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ve a la página de raresofware y pulsa en el botón verde para descargar Garageband para Windows.  Elige la carpeta de destino y espera a que la descarga termine.  Puede llevar entre 10 y 20 minutos configurarlo, así que ten paciencia.  Una vez terminado, podrás empezar a explorar Garageband desde tu PC con Windows."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            app:srcCompat="@drawable/gara" />
+
+        <Button
+            android:id="@+id/btninicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick"
+            android:text="Inicio" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Teams2">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEAMS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muestra entonces una ficha de equipo que deben ser rellenadas. La privacidad es importante para permitir que sea un grupo que toda la comunidad del instituto pueda ver y unirse (incluido estudiantes) o privado (sólo los miembros del equipo (recomendado) ."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            app:srcCompat="@drawable/teams4" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Al dar clic en el botón de “siguiente”, aparecerá otra ventana en dónde se requiere añadir a los integrantes; es aquí donde los alumnos son añadidos al grupo."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empieza una conversación"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahora en la pantalla central podemos ver que tenemos el canal General y el canal Procedimiento Teletrabajo. Iniciar una conversación es muy fácil en el cuadro inferior podemos empezar a escribir. Debajo del texto hay diversas opciones para personalizar el texto con emojis, formato del texto, adhesivos, etc. Haciendo clic en ENTER se manda el mensaje.  "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            app:srcCompat="@drawable/teams5" />
+
+        <Button
+            android:id="@+id/btnsig3"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="SIGUIENTE"
+            app:iconTint="@android:color/holo_green_dark" />
+    </LinearLayout>
+</LinearLayout>

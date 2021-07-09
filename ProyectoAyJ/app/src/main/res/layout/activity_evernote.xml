@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Evernote">
+
+    <TextView
+        android:id="@+id/textView168"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVERNOTE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evernote es una aplicación informática cuyo objetivo es la organización de información personal mediante el archivo de notas. Existen versiones instalables para diversos sistemas operativos y una versión web. La versión del software para Windows es compatible con pantallas táctiles y el reconocimiento de escritura."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear una cuenta de usuario En primer lugar introduciremos la URL www.evernote.com en la barra de direcciones de nuestro navegador, y una vez cargada la página web haremos clic en Comenzar:  "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/e1" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduciremos los datos solicitados en el siguiente formulario y haremos clic en el botón Registrar:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView172"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si todos los datos fueron rellenados correctamente se enviará un E-Mail a la cuenta de correo electrónico introducida en el punto anterior: para activar la cuenta debemos hacer clic en el enlace que contiene, o bien escribir el código de confirmación en el siguiente formulario:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView173"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Una vez que hayamos creado nuestra cuenta de usuario, en la página principal haremos clic en Acceder:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnsige"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="SIGUIENTE" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GOOGLECLASS">
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="GOOGLE CLASSROOM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La estructura de la clase se debe organizar de manera que el alumno lo pueda revisar fácilmente y que identifique de qué tema trata en el temario proporcionado al inicio. Esto nos lleva a al menos dos tipos de organización:  Por el temario del programa académico de la asignatura  Por clase  "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            app:srcCompat="@drawable/class1" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una vez que haya decidido cómo dará de alta la estructura, seleccione Trabajo en clase y haga clic en el botón Crear, esto hará que aparezca un menú con las opciones de crear una tarea, una tarea con cuestionario, una pregunta, materal, reutilizar una publicación (ya deberíamos tener una dada de alta) y crear un tema.  Vamos a dar de alta el siguiente temario a manera de ejemplo:  Conjuntos  Sistemas de numeración  El campo de los números reales  Operaciones con monomios y polinomios  "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnsig9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="onClick17"
+            android:text="SIGUIENTE" />
+    </LinearLayout>
+</LinearLayout>

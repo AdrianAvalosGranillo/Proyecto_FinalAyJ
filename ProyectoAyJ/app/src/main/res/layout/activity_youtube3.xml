@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Youtube3">
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUTUBE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView164"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Paso 3 Haz clic en "Subir vídeo".'
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView165"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Paso 4 Luego, haz clic en "selecciona los archivos que quieres subir" para cargar un archivo desde tu computadora. O bien, puedes arrastrarlo y soltarlo en la ventana.'
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/yt3" />
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso 5 Un paso opcional es elegir la configuración de privacidad en tu video (pero hablaremos más sobre eso a continuación)."
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/yt4" />
+
+    <TextView
+        android:id="@+id/textView167"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si decides detenerte después de esto, técnicamente tu video ya estará en YouTube. Sin embargo, no tendrá una descripción y las etiquetas adecuadas, que son cruciales si deseas que la comunidad de espectadores encuentre tu contenido. Además, si no cambias el nombre de tu video, se mostrará automáticamente el nombre con el que tenías guardado el archivo en tu computadora. Para evitar eso (y para finalizar correctamente el proceso), deberás completar los siguientes pasos."
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btniny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="INICIO" />
+</LinearLayout>
